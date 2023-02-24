@@ -1,16 +1,16 @@
 {
-  "name": "yauzl",
+  "name": "yauzl2",
   "version": "2.10.0",
   "description": "yet another unzip library for node",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js",
-    "test-cov": "istanbul cover test/test.js",
-    "test-travis": "istanbul cover --report lcovonly test/test.js"
+    "lint": "echo 'ignore lint'",
+    "test": "node --trace-deprecation test/test.js",
+    "ci": "istanbul cover --report lcovonly test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thejoshwolfe/yauzl.git"
+    "url": "https://github.com/node-modules/yauzl.git"
   },
   "keywords": [
     "unzip",
@@ -22,12 +22,12 @@
   "author": "Josh Wolfe <thejoshwolfe@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thejoshwolfe/yauzl/issues"
+    "url": "https://github.com/node-modules/yauzl/issues"
   },
-  "homepage": "https://github.com/thejoshwolfe/yauzl",
+  "homepage": "https://github.com/node-modules/yauzl",
   "dependencies": {
-    "fd-slicer": "~1.1.0",
-    "buffer-crc32": "~0.2.3"
+    "buffer-crc32": "~0.2.3",
+    "fd-slicer2": "^1.2.0"
   },
   "devDependencies": {
     "bl": "~1.0.0",
