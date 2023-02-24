@@ -4,6 +4,7 @@
   "description": "yet another unzip library for node",
   "main": "index.js",
   "scripts": {
+    "lint": "echo 'ignore lint'",
     "test": "node test/test.js",
     "ci": "istanbul cover --report lcovonly test/test.js"
   },
