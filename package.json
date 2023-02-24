@@ -1,6 +1,6 @@
 {
-  "name": "yauzl2",
-  "version": "2.10.0",
+  "name": "@eggjs/yauzl",
+  "version": "2.11.0",
   "description": "yet another unzip library for node",
   "main": "index.js",
   "scripts": {
@@ -36,5 +36,9 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
