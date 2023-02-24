@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "echo 'ignore lint'",
-    "test": "node test/test.js",
+    "test": "node --trace-deprecation test/test.js",
     "ci": "istanbul cover --report lcovonly test/test.js"
   },
   "repository": {
